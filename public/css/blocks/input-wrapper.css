@@ -1,6 +1,12 @@
 .input-wrapper {
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
 
+.input-wrapper--radio-group {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 24px;
@@ -42,7 +48,7 @@
 }
 
 .input-wrapper__error::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 1px;
@@ -131,11 +137,12 @@
 }
 
 .input-wrapper--radio-group label {
-  margin-right: 3px;
+  margin: 0 0 3px 3px;
   padding: 12px 24px;
 
   background: var(--color-radio-base);
   cursor: pointer;
+  user-select: none;
 
   transition: background var(--transition-base), color var(--transition-base);
 }

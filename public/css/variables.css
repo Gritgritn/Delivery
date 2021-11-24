@@ -7,8 +7,8 @@
   --color-deep-blue:            #397de1;
   --color-red:                  #ff9081;
   --color-green:                #48ca55;
-  --color-transparent:          rgba(0, 0, 0, 0); 
- 
+  --color-transparent:          rgba(0, 0, 0, 0);
+
   --color-bg-main:              #f6f8fb;
   --color-bg-white:             #ffffff;
 
@@ -16,7 +16,7 @@
   --color-text-main:            #444444;
   --color-text-grey:            #aaaaaa;
   --color-text-red:             #ff9081;
- 
+
   --color-radio-base:           #f2f2f2;
   --color-radio-checked:        #67a0f6;
   --color-radio-hover:          #dfecff;
